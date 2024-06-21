@@ -1,0 +1,195 @@
+[
+    {
+        "category": "games",
+        "name": "Midjourney",
+        "image": "images/images.jpeg1",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Game 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "games",
+        "name": "blox fruits",
+        "image": "images/images.jpeg2",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Game 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "games",
+        "name": "Roblox",
+        "image": "images/images.jpeg3",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Game 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "games",
+        "name": "Game 4",
+        "image": "images/images.jpeg4",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Game 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "entertainment",
+        "name": "nova",
+        "image": "images/hq720.jpg5",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Entertainment 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "entertainment",
+        "name": "Iconix",
+        "image": "images/images.jpeg4",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Entertainment 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "entertainment",
+        "name": "Tuba",
+        "image": "images/images.jpeg1",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Entertainment 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "entertainment",
+        "name": "Bejuba",
+        "image": "images/images.jpeg3",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Entertainment 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "sports",
+        "name": "Soccer Random",
+        "image": "images/images.jpeg4",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Sport 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "sports",
+        "name": "Penalty shooter",
+        "image": "images/hq720.jpg5",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Sport 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "sports",
+        "name": "Volley Random",
+        "image": "images/hq720.jpg5",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Sport 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "sports",
+        "name": "Tennis masters",
+        "image": "images/images.jpeg2",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Sport 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "music",
+        "name": "Soccer Random",
+        "image": "images/images.jpeg4",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Sport 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "music",
+        "name": "Penalty shooter",
+        "image": "images/hq720.jpg5",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Sport 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "music",
+        "name": "Volley Random",
+        "image": "images/hq720.jpg5",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Sport 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "music",
+        "name": "Tennis masters",
+        "image": "images/images.jpeg2",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Sport 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "education",
+        "name": "blox fruits",
+        "image": "images/images.jpeg2",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Game 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "education",
+        "name": "Roblox",
+        "image": "images/images.jpeg3",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Game 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "eduction",
+        "name": "Game 4",
+        "image": "images/images.jpeg4",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Game 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "education",
+        "name": "nova",
+        "image": "images/hq720.jpg5",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Entertainment 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "tech",
+        "name": "Bejuba",
+        "image": "images/images.jpeg3",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Entertainment 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "tech",
+        "name": "Bejuba",
+        "image": "images/images.jpeg3",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Entertainment 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "tech",
+        "name": "Bejuba",
+        "image": "images/images.jpeg3",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Entertainment 1.",
+        "buttonText": "Learn More"
+    },
+    {
+        "category": "tech",
+        "name": "Bejuba",
+        "image": "images/images.jpeg3",
+        "icon": "images/game-icon1.jpg",
+        "paragraph": "This is a description for Entertainment 1.",
+        "buttonText": "Learn More"
+    }
+]
+

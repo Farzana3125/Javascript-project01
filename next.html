@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="next.css" />
+    <title>Document</title>
+  </head>
+  <body>
+      <section id="main">
+        <section class="wrapper">
+          <header class="header-bottom">
+          <h1>
+            <img src="images/logo.svg" alt="logo-image" />
+          </h1>
+          <div class="menu">
+            <ul class="nav-menu">
+              <li class="nav-item"><a href="#">Download</a></li>
+              <li class="nav-item"><a href="#">Nitro</a></li>
+              <li class="nav-item"><a href="next.html">Discover</a></li>
+              <li class="nav-item"><a href="#">Safety</a></li>
+              <li class="nav-item"><a href="#">Support</a></li>
+              <li class="nav-item"><a href="#">Blog</a></li>
+              <li class="nav-item"><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="nav-right">
+            <button>Login</button>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div> <!-- hamburger menu  -->
+          </div>
+          <div class="new-menu">
+            <ul class="nav-menu2">
+              <li class="nav-item"><a href="#">Download</a></li>
+              <li class="nav-item"><a href="#">Nitro</a></li>
+              <li class="nav-item"><a href="#">Discover</a></li>
+              <li class="nav-item"><a href="#">Safety</a></li>
+              <li class="nav-item"><a href="#">Support</a></li>
+              <li class="nav-item"><a href="#">Blog</a></li>
+              <li class="nav-item"><a href="#">Careers</a></li>
+            </ul>
+          </div>
+        </header> <!--header-->
+        <section id="spotlight">
+            <div class="content">
+              <h2> FIND YOUR COMMUNITY ON DISCORD</h2>
+              <p>
+                  From gaming,,, to music.. to learning a place for you.
+              </p>
+            </div>
+        </section><!--spotlight-->
+      </section> <!--wrapper-->
+    </section> <!-- #main -->
+
+    <div class="container">
+      <div class="search-row">
+          <div class="search-container">
+              <input type="text" id="search-bar" placeholder="Explore communities">
+          </div>
+          <div class="search-icon-container">
+            <img src="images/images.jpeg" alt="Search Icon" class="search-icon">
+          </div>
+      </div>
+      <h2 id="result-count">0 Results Found</h2>
+      <div class="content">
+          <div class="categories">
+              <button onclick="filterData('all')">
+                <img src="images/5110770.png" alt="All">
+                  All <span id="count-all"></span>
+              </button>
+              <button onclick="filterData('games')">
+                <img src="images/game-icon1.jpg" alt="Games">
+                  Games <span id="count-games"></span>
+              </button>
+              <button onclick="filterData('entertainment')">
+                <img src="images/download.jpeg" alt="Entertainment">
+                  Entertainment <span id="count-entertainment"></span>
+              </button>
+              <button onclick="filterData('sports')">
+                <img src="images/game-icon1.jpg" alt="sports">
+                  Sports <span id="count-sports"></span>
+              </button>
+              <button onclick="filterData('education')">
+                <img src="images/ed.png" alt="Sports">
+                Education <span id="count-education"></span>
+            </button>
+            <button onclick="filterData('music')">
+                <img src="images/ed.png" alt="music">
+                Music <span id="count-music"></span>
+            </button>
+            <button onclick="filterData('tech')">
+                <img src="images/scienceandtech.png" alt="tech">
+                Science & tech<span id="count-tech"></span>
+            </button>
+          </div>
+          <div id="data-display" class="data-display">
+              <!-- Data items will be displayed here -->
+          </div>
+      </div>
+  </div>  
+    <script src="next.js">
+    </script>
+  </body>
+</html>

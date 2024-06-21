@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+      <section id="main">
+        <section class="wrapper">
+          <header class="header-bottom">
+          <h1>
+            <img src="images/logo.svg" alt="logo-image" />
+          </h1>
+          <div class="menu">
+            <ul class="nav-menu">
+              <li class="nav-item"><a href="#">Download</a></li>
+              <li class="nav-item"><a href="#">Nitro</a></li>
+              <li class="nav-item"><a href="next.html">Discover</a></li>
+              <li class="nav-item"><a href="#">Safety</a></li>
+              <li class="nav-item"><a href="#">Support</a></li>
+              <li class="nav-item"><a href="#">Blog</a></li>
+              <li class="nav-item"><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="nav-right">
+            <button>Login</button>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div> <!-- hamburger menu  -->
+          </div>
+          <div class="new-menu">
+            <ul class="nav-menu2">
+              <li class="nav-item"><a href="#">Download</a></li>
+              <li class="nav-item"><a href="#">Nitro</a></li>
+              <li class="nav-item"><a href="#">Discover</a></li>
+              <li class="nav-item"><a href="#">Safety</a></li>
+              <li class="nav-item"><a href="#">Support</a></li>
+              <li class="nav-item"><a href="#">Blog</a></li>
+              <li class="nav-item"><a href="#">Careers</a></li>
+            </ul>
+          </div>
+        </header> <!--header-->
+        <section id="spotlight">
+            <div class="content">
+              <h2>IMAGINE A PLACE...</h2>
+              <p>
+                ...where you can belong to a school club, a gaming group, or a
+                worldwide art community. <br />Where just you and a handful of
+                friends can spend time together. A place that makes it easy <br />
+                to talk every day and hang out more often.
+              </p>
+              <div class="buttons">
+                <button class="left">
+                  <span class="icon"
+                    ><img src="images/svgexport-2.svg" alt="download-image"
+                  /></span>
+                  Download for Linux
+                </button>
+                <button class="right">Open Discord in your browser</button>
+              </div>
+              <div class="newbutton">
+                <button class="new">
+                  <span class="icon">
+                    <img src="images/svgexport-2.svg" alt="img" />
+                  </span>
+                  Download from Google Play
+                </button>
+              </div>
+            </div>
+        </section><!--spotlight-->
+      </section> <!--wrapper-->
+    </section> <!-- #main -->
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".new-menu");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      });
+
+      document.querySelectorAll(".nav-item").forEach((n) =>
+        n.addEventListener("click", () => {
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("active");
+        })
+      );
+    </script>
+  </body>
+</html>
+
+
